@@ -9,7 +9,12 @@ const Home = () => {
 		<>
 			<Nav />
 			<Jumbo />
-			<Card />
+			<div className="card-group">
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+			</div>
 			<Footer />
 		</>
 	);

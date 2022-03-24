@@ -1,12 +1,15 @@
 import React from "react";
 const Nav = () => {
 	let rose = {
-		marginLeft: "1000px",
+		marginLeft: "600px",
+	};
+	let linda = {
+		marginLeft: "470px",
 	};
 	return (
 		<div>
 			<nav className="navbar navbar-expand-lg navbar-light bg-dark">
-				<a className="navbar-brand text-light" href="#">
+				<a className="navbar-brand text-light" href="#" style={linda}>
 					Navbar
 				</a>
 				<button
