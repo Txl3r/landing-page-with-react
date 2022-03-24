@@ -1,5 +1,8 @@
 import React from "react";
 const Nav = () => {
+	let rose = {
+		marginLeft: "1000px",
+	};
 	return (
 		<div>
 			<nav className="navbar navbar-expand-lg navbar-light bg-dark">
@@ -17,7 +20,7 @@ const Nav = () => {
 					<span className="navbar-toggler-icon"></span>
 				</button>
 				<div className="collapse navbar-collapse" id="navbarNav">
-					<ul className="navbar-nav">
+					<ul className="navbar-nav" style={rose}>
 						<li className="nav-item active">
 							<a className="nav-link text-light" href="#">
 								Home <span className="sr-only">(current)</span>
