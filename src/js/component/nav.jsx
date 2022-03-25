@@ -1,10 +1,10 @@
 import React from "react";
 const Nav = () => {
 	let rose = {
-		marginLeft: "600px",
+		marginLeft: "950px",
 	};
 	let linda = {
-		marginLeft: "470px",
+		marginLeft: "300px",
 	};
 	return (
 		<div>

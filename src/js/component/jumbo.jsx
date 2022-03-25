@@ -1,11 +1,10 @@
 import React from "react";
 const Jumbo = () => {
 	let wall = {
-		width: "50%",
 		margin: "0 auto",
 	};
 	return (
-		<div className="jumbotron bg-light" style={wall}>
+		<div className="jumbotron bg-light">
 			<h1 className="display-4">Hello, world!</h1>
 			<p className="lead">
 				This is a simple hero unit, a simple jumbotron-style component
